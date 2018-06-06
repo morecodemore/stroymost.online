@@ -60,6 +60,9 @@
       <symbol id="close" viewbox="0 0 16.97 16.97" xmlns="http://www.w3.org/2000/svg">
         <path fill="#fff" d="M17 14.85L14.85 17l-6.36-6.39L2.12 17 0 14.85l6.36-6.36L0 2.12 2.12 0l6.37 6.36L14.85 0 17 2.12l-6.39 6.37z"></path>
       </symbol>
+      <symbol id="modal-close" viewbox="0 0 50.59 51.3" xmlns="http://www.w3.org/2000/svg">
+        <path fill="#fff" d="M27.06 25.65l23.23 23.23a1 1 0 0 1 0 1.42 1 1 0 0 1-1.41 0L25.65 27.06 1.71 51a1 1 0 0 1-1.42 0 1 1 0 0 1 0-1.41l23.94-23.94L.29 1.71a1 1 0 0 1 0-1.42 1 1 0 0 1 1.42 0l23.94 23.94L48.88 1a1 1 0 0 1 1.41 0 1 1 0 0 1 0 1.42z"></path>
+      </symbol>
     </svg>
     <header class="header-index">
       <div class="block-container header-wrapper">
@@ -148,10 +151,10 @@
             </div>
             <div class="aerial-photography__foto"><img src="img/index/content/quadrupter.png"></div>
           </div>
-          <form class="aerial-photography__form">
+          <form class="aerial-photography__form" action="#">
             <div class="aerial-photography__form_wrapper">
-              <input class="aerial-photography__form_item" type="text" placeholder="Ваше имя" required>
-              <input class="aerial-photography__form_item" type="tel" id="aerial-photography__tel" placeholder="Ваш телефон" required>
+              <input class="aerial-photography__form_item aerial-photography__form_input" type="text" placeholder="Ваше имя" required>
+              <input class="aerial-photography__form_item aerial-photography__form_input" type="tel" id="aerial-photography__tel" placeholder="Ваш телефон" required>
               <button class="aerial-photography__form_item button button__filled_blue" type="submit">Получить подарок</button>
             </div>
             <input class="aerial-photography__form_checkbox visually-hidden" type="checkbox" id="required" checked required>
@@ -218,10 +221,11 @@
           <h3 class="certificates__heading">Допуски и Сертификаты</h3>
           <p class="certificates__text">Вся наша деятельность от начала и до конца законна, прозрачна и понятна. И исключений из этого правила мы для себя не делаем</p>
           <section class="certificates__block certificates-carusel owl-carousel owl-theme">
-            <article class="certificates__block_item"><span role="button"><img src="img/index/certificates/certificate_1.png"></span></article>
-            <article class="certificates__block_item"><span role="button"><img src="img/index/certificates/certificate_2.png"></span></article>
-            <article class="certificates__block_item"><span role="button"><img src="img/index/certificates/certificate_3.png"></span></article>
-            <article class="certificates__block_item"><span role="button"><img src="img/index/certificates/certificate_4.png"></span></article>
+            <article class="certificates__block_item"><span id="certificates-1" role="button"><img src="img/index/certificates/certificate_1.png"></span></article>
+            <article class="certificates__block_item"><span id="certificates-2" role="button"><img src="img/index/certificates/certificate_2.png"></span></article>
+            <article class="certificates__block_item"><span id="certificates-3" role="button"><img src="img/index/certificates/certificate_3.png"></span></article>
+            <article class="certificates__block_item"><span id="certificates-4" role="button"><img src="img/index/certificates/certificate_4.png"></span></article>
+            <article class="certificates__block_item"><span id="certificates-5" role="button"><img src="img/index/certificates/certificate_4.png"></span></article>
           </section>
         </div>
       </section>
@@ -343,7 +347,7 @@
             <div class="contacts__block_item"><span class="contacts__block_item-name">Адрес</span>
               <p class="contacts__block_item-value">г. Москва, ул. Чекистов 28, офис 4</p>
             </div>
-            <button class="button button-radius button__filled_blue">Написать нам</button>
+            <button class="button button-radius button__filled_blue" id="modal-button">Написать нам</button>
           </div>
         </div>
         <div class="contacts__card" id="main-cart"></div>
@@ -361,6 +365,89 @@
         </div>
       </div>
     </footer>
+    <div class="alert-success">
+      <div class="alert-success__overlay"></div>
+      <div class="alert-success__block">
+        <button class="alert-success__block_close-button"><span class="alert-success__block_button-img">
+            <svg>
+              <use xlink:href="#modal-close"></use>
+            </svg></span></button><img class="alert-success__block_check" src="img/style/check.png">
+        <h4 class="alert-success__block_heading">Спасибо!</h4>
+        <p class="alert-success__block_text">Ваша заявка успешно принята</p>
+        <p class="alert-success__block_text">Мы свяжемся с Вами в ближайшее время</p>
+      </div>
+    </div>
+    <div class="modal-form">
+      <div class="modal-form__overlay"></div>
+      <div class="modal-form__block">
+        <button class="modal-form__block_close-button"><span class="modal-form__block_button-img">
+            <svg>
+              <use xlink:href="#modal-close"></use>
+            </svg></span></button>
+        <h4 class="modal-form__block_heading">Обратная связь</h4>
+        <p class="modal-form__block_text">Заполните, пожалуйста, форму. Мы свяжемся с Вами в ближайшее время.</p>
+        <form class="modal-form__block_form">
+          <input class="modal-form__block_active" id="name" type="text" placeholder="Ваше имя" required>
+          <input class="modal-form__block_active" id="modal-tel" type="tel" placeholder="Телефон" required>
+          <input class="modal-form__block_active" type="email" placeholder="E-mail" required>
+          <div>
+            <input class="modal-form__block_checkbox visually-hidden" id="compliance" type="checkbox" checked required>
+            <label class="modal-form__block_label" for="compliance">Обработка персональных данных</label>
+          </div>
+          <button class="modal-form__block_active modal-form__block_button button button-radius button__filled_blue" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <div class="modal modal__certificates" id="modal__certificates-1">
+      <div class="modal__overlay"></div>
+      <div class="modal__block">
+        <button class="modal__block_close">
+          <svg class="close-modal">
+            <use xlink:href="#modal-close"></use>
+          </svg>
+        </button><img class="modal__certificates_img" src="img/index/certificates/certificate_1.png" alt="Сертификат">
+      </div>
+    </div>
+    <div class="modal modal__certificates" id="modal__certificates-2">
+      <div class="modal__overlay"></div>
+      <div class="modal__block">
+        <button class="modal__block_close">
+          <svg class="close-modal">
+            <use xlink:href="#modal-close"></use>
+          </svg>
+        </button><img class="modal__certificates_img" src="img/index/certificates/certificate_2.png" alt="Сертификат">
+      </div>
+    </div>
+    <div class="modal modal__certificates" id="modal__certificates-3">
+      <div class="modal__overlay"></div>
+      <div class="modal__block">
+        <button class="modal__block_close">
+          <svg class="close-modal">
+            <use xlink:href="#modal-close"></use>
+          </svg>
+        </button><img class="modal__certificates_img" src="img/index/certificates/certificate_3.png" alt="Сертификат">
+      </div>
+    </div>
+    <div class="modal modal__certificates" id="modal__certificates-4">
+      <div class="modal__overlay"></div>
+      <div class="modal__block">
+        <button class="modal__block_close">
+          <svg class="close-modal">
+            <use xlink:href="#modal-close"></use>
+          </svg>
+        </button><img class="modal__certificates_img" src="img/index/certificates/certificate_4.png" alt="Сертификат">
+      </div>
+    </div>
+    <div class="modal modal__certificates" id="modal__certificates-5">
+      <div class="modal__overlay"></div>
+      <div class="modal__block">
+        <button class="modal__block_close">
+          <svg class="close-modal">
+            <use xlink:href="#modal-close"></use>
+          </svg>
+        </button><img class="modal__certificates_img" src="img/index/certificates/certificate_4.png" alt="Сертификат">
+      </div>
+    </div>
     <script src="module/jquery-3.3.1.min/index.js"></script>
     <script src="module/owl.carousel.min.js"></script>
     <script src="module/jquery.maskedinput.min.js"></script>
