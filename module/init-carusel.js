@@ -11,6 +11,18 @@ $('.projects-carusel').owlCarousel({
   }
 });
 
+$('.projects-item-carusel').owlCarousel({
+  loop: true,
+  margin: 0,
+  nav: true,
+  dots: false,
+  responsive: {
+    0: {
+      items: 1
+    }
+  }
+});
+
 //Карусель новостей
 $('.news-carusel').owlCarousel({
   loop: true,
@@ -58,6 +70,19 @@ $('.certificates-carusel').owlCarousel({
       items: 4,
       dots: false,
       nav: true
+    }
+  }
+});
+
+//Карусель сертификатов в боковом меню
+$('.aside-carusel').owlCarousel({
+  margin: 50,
+  center: true,
+  dots: true,
+  nav: false,
+  responsive: {
+    0: {
+      items: 1
     }
   }
 });
