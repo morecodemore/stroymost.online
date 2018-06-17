@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8ffd26d-f49d-4e7a-ba7b-48c7ce3071e1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/js-style.css" afterPath="$PROJECT_DIR$/css/js-style.css" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/bundle.min.js" afterPath="$PROJECT_DIR$/js/bundle.min.js" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" afterPath="$PROJECT_DIR$/pages/about.html" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts.html" afterPath="$PROJECT_DIR$/pages/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/pages/customers.html" afterPath="$PROJECT_DIR$/pages/customers.html" />
-      <change beforePath="$PROJECT_DIR$/pages/news-item.html" afterPath="$PROJECT_DIR$/pages/news-item.html" />
-      <change beforePath="$PROJECT_DIR$/pages/news.html" afterPath="$PROJECT_DIR$/pages/news.html" />
-      <change beforePath="$PROJECT_DIR$/pages/price-item.html" afterPath="$PROJECT_DIR$/pages/price-item.html" />
-      <change beforePath="$PROJECT_DIR$/pages/price.html" afterPath="$PROJECT_DIR$/pages/price.html" />
-      <change beforePath="$PROJECT_DIR$/pages/projects-item.html" afterPath="$PROJECT_DIR$/pages/projects-item.html" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" afterPath="$PROJECT_DIR$/pages/projects.html" />
-      <change beforePath="$PROJECT_DIR$/pages/services-item.html" afterPath="$PROJECT_DIR$/pages/services-item.html" />
-      <change beforePath="$PROJECT_DIR$/pages/services.html" afterPath="$PROJECT_DIR$/pages/services.html" />
-      <change beforePath="$PROJECT_DIR$/pages/vacancy-item.html" afterPath="$PROJECT_DIR$/pages/vacancy-item.html" />
-      <change beforePath="$PROJECT_DIR$/pages/vacancy.html" afterPath="$PROJECT_DIR$/pages/vacancy.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -241,16 +224,15 @@
       <option name="presentableId" value="Default" />
       <updated>1528890875428</updated>
       <workItem from="1528890877424" duration="2877000" />
-      <workItem from="1529257016491" duration="256000" />
+      <workItem from="1529257016491" duration="759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3133000" />
+    <option name="totallyTimeSpent" value="3636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="249" y="23" width="1638" height="1005" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17794487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
