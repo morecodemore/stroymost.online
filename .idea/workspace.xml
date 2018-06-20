@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d8ffd26d-f49d-4e7a-ba7b-48c7ce3071e1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/js/bundle.min.js" afterPath="$PROJECT_DIR$/js/bundle.min.js" />
-      <change beforePath="$PROJECT_DIR$/pages/projects.html" afterPath="$PROJECT_DIR$/pages/projects.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -176,12 +175,12 @@
       <updated>1528890875428</updated>
       <workItem from="1528890877424" duration="2877000" />
       <workItem from="1529257016491" duration="853000" />
-      <workItem from="1529453017708" duration="2314000" />
+      <workItem from="1529453017708" duration="2585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6044000" />
+    <option name="totallyTimeSpent" value="6315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="192" y="23" width="1638" height="1005" extended-state="0" />
