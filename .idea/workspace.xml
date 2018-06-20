@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ffd26d-f49d-4e7a-ba7b-48c7ce3071e1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/img/index/content/header-image.jpg" afterPath="$PROJECT_DIR$/img/index/content/header-image.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/index/content/school.jpg" afterPath="$PROJECT_DIR$/img/index/content/school.jpg" />
-      <change beforePath="$PROJECT_DIR$/img/pages/news/news.png" afterPath="$PROJECT_DIR$/img/pages/news/news.png" />
-      <change beforePath="$PROJECT_DIR$/img/pages/projects/projects-2.png" afterPath="$PROJECT_DIR$/img/pages/projects/projects-2.png" />
-      <change beforePath="$PROJECT_DIR$/img/pages/projects/projects-3.png" afterPath="$PROJECT_DIR$/img/pages/projects/projects-3.png" />
-      <change beforePath="$PROJECT_DIR$/img/pages/projects/projects-4.png" afterPath="$PROJECT_DIR$/img/pages/projects/projects-4.png" />
-      <change beforePath="$PROJECT_DIR$/img/pages/services/services-1.png" afterPath="$PROJECT_DIR$/img/pages/services/services-1.png" />
-      <change beforePath="$PROJECT_DIR$/img/pages/services/services-2.png" afterPath="$PROJECT_DIR$/img/pages/services/services-2.png" />
-      <change beforePath="$PROJECT_DIR$/img/pages/services/services-3.png" afterPath="$PROJECT_DIR$/img/pages/services/services-3.png" />
-      <change beforePath="$PROJECT_DIR$/img/pages/services/services-4.png" afterPath="$PROJECT_DIR$/img/pages/services/services-4.png" />
-      <change beforePath="$PROJECT_DIR$/img/pages/services/services.png" afterPath="$PROJECT_DIR$/img/pages/services/services.png" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/pages/about.html" afterPath="$PROJECT_DIR$/pages/about.html" />
-      <change beforePath="$PROJECT_DIR$/pages/contacts.html" afterPath="$PROJECT_DIR$/pages/contacts.html" />
-      <change beforePath="$PROJECT_DIR$/pages/customers.html" afterPath="$PROJECT_DIR$/pages/customers.html" />
-      <change beforePath="$PROJECT_DIR$/pages/news-item.html" afterPath="$PROJECT_DIR$/pages/news-item.html" />
-      <change beforePath="$PROJECT_DIR$/pages/news.html" afterPath="$PROJECT_DIR$/pages/news.html" />
-      <change beforePath="$PROJECT_DIR$/pages/price-item.html" afterPath="$PROJECT_DIR$/pages/price-item.html" />
-      <change beforePath="$PROJECT_DIR$/pages/price.html" afterPath="$PROJECT_DIR$/pages/price.html" />
-      <change beforePath="$PROJECT_DIR$/pages/projects-item.html" afterPath="$PROJECT_DIR$/pages/projects-item.html" />
       <change beforePath="$PROJECT_DIR$/pages/projects.html" afterPath="$PROJECT_DIR$/pages/projects.html" />
-      <change beforePath="$PROJECT_DIR$/pages/services-item.html" afterPath="$PROJECT_DIR$/pages/services-item.html" />
-      <change beforePath="$PROJECT_DIR$/pages/services.html" afterPath="$PROJECT_DIR$/pages/services.html" />
-      <change beforePath="$PROJECT_DIR$/pages/vacancy-item.html" afterPath="$PROJECT_DIR$/pages/vacancy-item.html" />
-      <change beforePath="$PROJECT_DIR$/pages/vacancy.html" afterPath="$PROJECT_DIR$/pages/vacancy.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,12 +13,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/about.html">
+      <file leaf-file-name="projects.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="191" column="74" lean-forward="false" selection-start-line="191" selection-start-column="71" selection-end-line="191" selection-end-column="74" />
+            <state relative-caret-position="576">
+              <caret line="170" column="12" lean-forward="false" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
               <folding>
+                <element signature="n#ul#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#0;n#section#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -72,13 +47,13 @@
         <option value="$PROJECT_DIR$/pages/news.html" />
         <option value="$PROJECT_DIR$/pages/news-item.html" />
         <option value="$PROJECT_DIR$/pages/price.html" />
-        <option value="$PROJECT_DIR$/pages/projects.html" />
         <option value="$PROJECT_DIR$/pages/projects-item.html" />
         <option value="$PROJECT_DIR$/pages/services.html" />
         <option value="$PROJECT_DIR$/pages/services-item.html" />
         <option value="$PROJECT_DIR$/pages/vacancy.html" />
         <option value="$PROJECT_DIR$/pages/vacancy-item.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/pages/projects.html" />
       </list>
     </option>
   </component>
@@ -163,12 +138,12 @@
       <updated>1528890875428</updated>
       <workItem from="1528890877424" duration="2877000" />
       <workItem from="1529257016491" duration="853000" />
-      <workItem from="1529453017708" duration="769000" />
+      <workItem from="1529453017708" duration="1385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4499000" />
+    <option name="totallyTimeSpent" value="5115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="192" y="23" width="1638" height="1005" extended-state="0" />
@@ -385,16 +360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="185" column="16" lean-forward="false" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#section#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/projects-item.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
@@ -460,6 +425,17 @@
         <state relative-caret-position="369">
           <caret line="191" column="74" lean-forward="false" selection-start-line="191" selection-start-column="71" selection-end-line="191" selection-end-column="74" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#section#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/projects.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="170" column="12" lean-forward="false" selection-start-line="170" selection-start-column="12" selection-end-line="170" selection-end-column="12" />
+          <folding>
+            <element signature="n#ul#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#section#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
