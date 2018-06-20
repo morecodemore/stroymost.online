@@ -111,10 +111,10 @@
           <form class="aerial-photography__form" action="#">
             <div class="aerial-photography__form_wrapper">
               <input class="aerial-photography__form_item aerial-photography__form_input" type="text" name="name" placeholder="Ваше имя" required>
-              <input class="aerial-photography__form_item aerial-photography__form_input" type="tel" id="aerial-photography__tel" placeholder="Ваш телефон" required>
+              <input class="aerial-photography__form_item aerial-photography__form_input" type="tel" name="phone" id="aerial-photography__tel" placeholder="Ваш телефон" required>
               <button class="aerial-photography__form_item button button__filled_blue" type="submit">Получить подарок</button>
             </div>
-            <input class="aerial-photography__form_checkbox visually-hidden" type="checkbox" id="required" checked required>
+            <input class="aerial-photography__form_checkbox visually-hidden" type="checkbox" name="compliance" id="required" checked required>
             <label class="aerial-photography__form_checkbox-label" for="required">Нажимая на кнопку, я даю свое согласие на обработку персональных данных</label>
           </form>
         </article>
@@ -297,12 +297,26 @@
     <footer>
       <section class="contacts">
         <div class="block-container contacts__wrapper">
-          <div class="contacts__block">
+          <div class="contacts__block vcard">
+            <span class="fn org">
+              <span class="value-title" title="Мостовые строительные технологии"></span>
+            </span>
+            <span class="url">
+              <span class="value-title" title="https://morecodemore.github.io/mst.online/"></span>
+            </span>
             <h4 class="contacts__block_heading">Контакты</h4>
-            <div class="contacts__block_item"><span class="contacts__block_item-name">Телефон</span><a class="contacts__block_item-value" href="tel:+74953993331">+7(495) 399-33-31</a></div>
-            <div class="contacts__block_item"><span class="contacts__block_item-name">Электронная почта</span><a class="contacts__block_item-value" href="mailto:admin@sitename.ru">admin@sitename.ru</a></div>
-            <div class="contacts__block_item"><span class="contacts__block_item-name">Адрес</span>
-              <p class="contacts__block_item-value">г. Москва, ул. Чекистов 28, офис 4</p>
+            <div class="contacts__block_item tel">
+              <span class="contacts__block_item-name">Телефон</span>
+              <a class="contacts__block_item-value value" href="tel:+74953993331">+7(495) 399-33-31</a></div>
+            <div class="contacts__block_item email">
+              <span class="contacts__block_item-name">Электронная почта</span>
+              <a class="contacts__block_item-value value" href="mailto:admin@sitename.ru">admin@sitename.ru</a>
+            </div>
+            <div class="contacts__block_item adr">
+              <span class="contacts__block_item-name">Адрес</span>
+              <p class="contacts__block_item-value"><span class="locality">г. Москва, ул.</span>
+                <span class="street-address">Чекистов 28, офис 4</span>
+              </p>
             </div>
             <button class="button button-radius button__filled_blue modal-form-button" id="modal-button" type="submit">Написать нам</button>
           </div>
@@ -345,10 +359,10 @@
         <p class="modal-form__block_text">Заполните, пожалуйста, форму. Мы свяжемся с Вами в ближайшее время.</p>
         <form class="modal-form__block_form">
           <input class="modal-form__block_active" id="name" type="text" name="name" placeholder="Ваше имя" required>
-          <input class="modal-form__block_active" id="modal-tel" name="tel" type="tel" placeholder="Телефон" required>
+          <input class="modal-form__block_active" id="modal-tel" name="phone" type="tel" placeholder="Телефон" required>
           <input class="modal-form__block_active" type="email" name="email" placeholder="E-mail" required>
           <div>
-            <input class="modal-form__block_checkbox visually-hidden" id="compliance" type="checkbox" checked required>
+            <input class="modal-form__block_checkbox visually-hidden" id="compliance" name="compliance" type="checkbox" checked required>
             <label class="modal-form__block_label" for="compliance">Обработка персональных данных</label>
           </div>
           <button class="modal-form__block_active modal-form__block_button button button-radius button__filled_blue" type="submit">Отправить</button>
